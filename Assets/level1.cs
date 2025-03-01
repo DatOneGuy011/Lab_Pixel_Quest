@@ -97,8 +97,7 @@ public class level1 : MonoBehaviour
         // Apply higher gravity when falling
         rb.gravityScale = (rb.velocity.y < 0) ? fallGravityMultiplier : 1f;
 
-        // Debug info
-        Debug.Log($"Jumps Remaining: {jumpsRemaining}, IsGrounded: {isGrounded}, Coyote: {coyoteTimeCounter}");
+
     }
 
     void HandleJumping()
