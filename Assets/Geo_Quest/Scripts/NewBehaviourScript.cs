@@ -27,11 +27,9 @@ public class NewBehaviourScript : MonoBehaviour
     void Update()
     {
         float xInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2 (xInput * amount, rb.velocity.y);
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            rb.velocity = new Vector2(rb.velocity.x, jumpAmount);
-        }
+        float yInput = Input.GetAxis("Vertical");
+        rb.velocity = new Vector2 (xInput * amount, yInput * amount);
+        
         if (points >= 3f)
         {
              TextMeshPro.text = "Objective: Go Next Level";
