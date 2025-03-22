@@ -13,7 +13,7 @@ public class move : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        textMeshPro.text = "Number of Jumps: 5";
         rb = GetComponent<Rigidbody2D>();
     }
 
