@@ -11,11 +11,10 @@ public class NewBehaviourScript : MonoBehaviour
     public TextMeshPro TextMeshPro;
     
     public float amount = 2f;
-    public float jumpAmount = 5f;
 
     private float points = 0f; 
 
-    public string Level2 = "Scene_2";
+    public string Level_2 = "Level_2";
 
     Rigidbody2D rb;
     void Start()
@@ -59,7 +58,7 @@ public class NewBehaviourScript : MonoBehaviour
                 {
                     if (points >= 3f)
                     {
-                        SceneManager.LoadScene(Level2);
+                        SceneManager.LoadScene(Level_2);
                     }
                     
                     break;
