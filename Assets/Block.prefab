@@ -318,8 +318,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee8e010ce0d30fa41a119ac318ca9e47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1198098961228197752}
-  num: 2
+  textMesh: {fileID: 2267425480649427129}
+  blockPrefab: {fileID: 1198098961228197752}
+  value: 2
 --- !u!61 &2350612893508419984
 BoxCollider2D:
   m_ObjectHideFlags: 0
