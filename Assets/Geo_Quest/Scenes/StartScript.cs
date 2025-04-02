@@ -12,7 +12,7 @@ public class StartScript : MonoBehaviour
     
     void Start()
     {
-        bool CanvasActive = false; 
+        bool CanvasActive = false;
         if (CanvasActive == false)
         {
             Canvas.SetActive(true);
